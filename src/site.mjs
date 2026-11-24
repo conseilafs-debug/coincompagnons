@@ -21,11 +21,11 @@ export const SITE = {
   },
   // Informations légales à compléter par l'éditeur avant toute mise en production sous nom de domaine.
   legal: {
-    editeur: process.env.LEGAL_EDITEUR || '[À COMPLÉTER : nom ou raison sociale de l’éditeur]',
-    statut: process.env.LEGAL_STATUT || '[À COMPLÉTER : statut juridique, SIRET si applicable]',
-    adresse: process.env.LEGAL_ADRESSE || '[À COMPLÉTER : adresse postale de l’éditeur]',
-    email: process.env.LEGAL_EMAIL || '[À COMPLÉTER : adresse e-mail de contact]',
-    directeur: process.env.LEGAL_DIRECTEUR || '[À COMPLÉTER : directeur de la publication]',
+    editeur: process.env.LEGAL_EDITEUR || 'Athéna Office',
+    statut: process.env.LEGAL_STATUT || 'Micro-entreprise (entrepreneur individuel), SIREN 105 858 328. Non assujettie à la TVA.',
+    adresse: process.env.LEGAL_ADRESSE || '2 résidence Pierre Jacques, rue des Chardonnerets, 62600 Groffliers, France',
+    email: process.env.LEGAL_EMAIL || 'contact@athena-office.fr',
+    directeur: process.env.LEGAL_DIRECTEUR || 'Philippe Lesieur',
     hebergeur: 'Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, États-Unis (Cloudflare Pages)',
   },
 };
