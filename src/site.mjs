@@ -5,7 +5,7 @@ export const SITE = {
   tagline: 'Tout pour mieux comprendre et prendre soin de votre animal',
   subtitle: 'Guides, fiches races, calculateurs gratuits et conseils pratiques pour chiens, chats et animaux de compagnie.',
   // URL publique du site. À remplacer par le nom de domaine définitif : SITE_URL=https://mon-domaine.fr npm run build
-  url: (process.env.SITE_URL || 'https://le-coin-des-compagnons.pages.dev').replace(/\/$/, ''),
+  url: (process.env.SITE_URL || 'https://coincompagnons.pages.dev').replace(/\/$/, ''),
   buildDate: process.env.BUILD_DATE || new Date().toISOString().slice(0, 10),
   locale: 'fr_FR',
   // AdSense : renseigner l'identifiant éditeur uniquement lorsque le compte est validé ET qu'un système de consentement est en place.
