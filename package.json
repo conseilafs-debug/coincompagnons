@@ -1,0 +1,14 @@
+{
+  "name": "portail-animaux",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portail français sur les animaux de compagnie : fiches races, calculateurs, guides. Site statique pour Cloudflare Pages.",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "verify": "npm run build && npm test && npm run check"
+  },
+  "engines": { "node": ">=18" }
+}
